@@ -5,37 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page Layout Grid</title>
   <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!--<script src="scripts.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.2/css/all.min.css"/>
+
 </head>
 
 <body>
   <header class="page-header">
     <a href="#" class="logotype">Logotype</a>
     
-    <div class="icons leftside"> 
+    <div class="icons nav-block"> 
       <div class='nav-container'>
-          <img src="img/Hamburger_icon.svg.png" class="nav-button" alt="Navigation">
+          <i class="fa fa-bars nav"></i>
+          <!-- <i class="fa fa-search"></i> -->
           <nav class="page-nav">
               <ul class="">
                   <li><a href="#">Home</a></li>
-                  <li><a href="">Products</a></li>
-                  <li><a href="">About us</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact</a></li>
               </ul>
           </nav>
       </div>
     </div>
-    <div class="icons rightside"></div>
+    <div class="icons other-block">
+      <!-- <i class="fa fa-bars nav"></i> -->
+      
+      <div class='search-container'>
+        <i class="fa fa-search"></i>
+        <!-- <i class="fa fa-search"></i> -->
+        <form action="get"></form>
+          <div class="page-search">
+          
+            <input type="text" name="search" id="search">
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          
+        </div>
+      </form>
+    </div>
+    </div>
   </header>
   
   <main>
     <header class="main-header">
       <h1>Page Layout Grid</h1>
-
     </header>
-    
-  
-  
+
   </main>
   <footer>
     Footer
