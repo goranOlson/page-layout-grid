@@ -9,7 +9,6 @@ body {
     min-width: 320px;
     display: grid;
     grid-template-rows: auto min-content;
-    /* min-height: calc(100vh - 0px); */
     min-height: 100vh;
 }
 
@@ -26,7 +25,7 @@ body {
     grid-template-rows: 1fr;
     align-items: center;
     background: #e5c6c6;
-    /* background: #ddd; */
+        /* background: #ddd; */
     box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.2);
     /* position: relative; */
 }
