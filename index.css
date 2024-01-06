@@ -7,6 +7,10 @@
 
 body {
     min-width: 320px;
+    display: grid;
+    grid-template-rows: auto min-content;
+    /* min-height: calc(100vh - 0px); */
+    min-height: 100vh;
 }
 
 
@@ -183,7 +187,7 @@ body,
 body main {
     padding-top: 50px;
     
-    min-height: calc(100vh - 30px);
+    /* min-height: calc(100vh - 30px); */
 }
 
 .main-header {
